@@ -137,16 +137,16 @@ export const Navbar = () => {
           <div ref={menuRef} className="navbar-menu">
             {!loading && !user ? (
               <>
-               <div className='navbar-contents-category'>SEO</div>
-              <div className='navbar-contents-category'>Marketing</div>
-              <div className='navbar-contents-category'>AI</div>
+          <div className='navbar-contents-category'>Services</div>
+          <div className='navbar-contents-category'>Resources</div>
+          <div className='navbar-contents-category'>Contact us</div>
               <Link href="https://prfec.ai/login" className='navbar-login' onClick={handleLinkClick}>Get Started</Link>
               </>
             ) : (
               <>
-              <div className='navbar-contents-category'>SEO</div>
-              <div className='navbar-contents-category'>Marketing</div>
-              <div className='navbar-contents-category'>AI</div>
+          <div className='navbar-contents-category'>Services</div>
+          <div className='navbar-contents-category'>Resources</div>
+          <div className='navbar-contents-category'>Contact us</div>
                 <Link href="/account-settings" onClick={() => handleNavigation("/account-settings")}  >
                   <p>Profile</p>
                 </Link>
