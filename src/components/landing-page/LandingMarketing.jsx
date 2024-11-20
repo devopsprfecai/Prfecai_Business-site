@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import Image from "next/image";
 import arrow from "@public/assets/Images/landing/arrow-white.svg";
