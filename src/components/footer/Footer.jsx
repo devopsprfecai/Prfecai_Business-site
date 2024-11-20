@@ -21,7 +21,7 @@ export const Footer = () => {
                 <p>Refund Policy</p>
             </div>
             <div className='footer-contents'>
-            <Image src={logo}/>
+            <Image src={logo} alt='prfec logo'/>
           </div>
           </div>
           <div className='footer-right'>

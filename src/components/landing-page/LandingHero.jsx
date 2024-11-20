@@ -21,7 +21,6 @@ const LandingHero = () => {
                 <button className='free-consultation-btn' onClick={openPopup}>Free Consultation</button>
                 <button className='get-started-btn' onClick={openPopup}>Get Started</button>
                 <PopupForm isOpen={isPopupOpen} onClose={closePopup} />
-
             </div>
         </div>
     </div>
@@ -29,3 +28,4 @@ const LandingHero = () => {
 }
 
 export default LandingHero
+

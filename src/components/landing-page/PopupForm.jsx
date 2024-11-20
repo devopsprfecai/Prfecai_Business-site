@@ -1,4 +1,3 @@
-"use client";
 
 import React, { useState } from "react";
 import { Country, State, City } from "country-state-city";
@@ -146,3 +145,4 @@ const PopupForm = ({ isOpen, onClose }) => {
 };
 
 export default PopupForm;
+
