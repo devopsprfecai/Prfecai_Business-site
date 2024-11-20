@@ -149,6 +149,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
+    position: relative;
+    overflow-x: hidden;
+
 }
 .landing-logo-container p{
     width: 50%;
@@ -161,11 +165,77 @@
 }
 
 .landing-logo-container .logo{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    justify-content: center;
+    justify-content: center; */
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: hidden;
+
 }
+.landing-logo-container .logo::before, .landing-logo-container .logo::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10%;
+    pointer-masterclass: none;
+    z-index: 1;
+    background: linear-gradient(to right, rgb(255 254 243), rgba(255, 255, 255, 0));
+}
+.landing-logo-container .logo::before {
+    left: 0;
+  }
+  
+  .landing-logo-container .logo::after {
+    right: 0;
+    transform: rotateY(180deg);
+  }
+.landing-partners-logo {
+    display: flex;
+    animation: 25s slide infinite linear;
+  }
+  .landing-partners-logo img {
+    margin: 0px 24px;
+  }
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+  
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @media only screen and (max-width:1024px){
+    .landing-logo-container p{
+        width: 70%;
+    }
+  }
+  @media only screen and (max-width:600px){
+    .landing-logo-container {
+        width: 90%;
+    }
+    .landing-logo-container p{
+        width: 85%;
+        font-size: 18px
+    }
+  }
+  @media only screen and (max-width:400px){
+    .landing-logo {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .landing-logo-container p{
+        width: 95%;
+        font-size: 16px
+    }
+    .landing-partners-logo img {
+        margin: 0px 18px;
+      }
+  }
 /* -------------------------------------------------------Landing Stat--------------------------------------------------- */
 
 .landing-stat{
@@ -177,7 +247,7 @@
     align-items: stretch;
 }
 .landing-stat-container{
-    width: 75%;
+    width: 85%;
     display: flex;
     gap: 1.5rem;
 }
@@ -196,24 +266,26 @@
     background-color: #6C2F52;
     border: 1px solid var(--prfec-black);
     border-radius: 24px;
+    height: 100%;
 }
 .landing-stat-left-top h2{
-    font-size: 56px;
+    font-size: 48px;
     font-family: var(--p-font);
     color: var(--h-white);
     font-weight: 600;
     line-height: 130%;
 }
 .landing-stat-left-top p{
-    font-size: 28px;
+    font-size: 24px;
     font-family: var(--p-font);
     color: var(--h-white);
     font-weight: 400;
     line-height: 130%;
 }
 .landing-stat-left-bottom{
-    display: flex;
-    gap: 1.8rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 1.5rem;
     padding: 42px 32px;
     background-color: var(--prfec-black);
     border: 1px solid var(--prfec-black);
@@ -225,14 +297,14 @@
     gap: 0.3rem;
 }
 .landing-stat-left-bottom .contents h3{
-    font-size: 34px;
+    font-size: 32px;
     font-family: var(--p-font);
     color: var(--h-white);
     font-weight: 700;
     line-height: 130%;
 }
 .landing-stat-left-bottom .contents p{
-    font-size: 19px;
+    font-size: 16px;
     font-family: var(--p-font);
     color: var(--h-white);
     font-weight: 400;
@@ -283,11 +355,10 @@
         padding: 56px 32px;
     }
     .landing-stat-left-bottom .contents h3 {
-        font-size: 32px;
+        font-size: 28px;
     }
     .landing-stat-left-bottom {
-        display: flex;
-        gap: 1.5rem;
+
         padding: 36px 32px;
     }
 }
@@ -298,7 +369,6 @@
     }
     .landing-stat-left-top{
         padding: 56px 32px;
-        aspect-ratio: 1 / 1;
     }
     .landing-stat-left-top h2{
         font-size: 36px;
@@ -308,15 +378,10 @@
         line-height: 170%;
     }
     .landing-stat-left-bottom .contents h3 {
-        font-size: 20px;
+        font-size: 22px;
     }
     .landing-stat-left-bottom .contents p {
         font-size: 14px;
-    }
-    .landing-stat-left-bottom {
-        display: flex;
-        gap: 1.5rem;
-        padding: 36px 32px;
     }
     .landing-stat-right h3{
         width: 100%;
@@ -330,10 +395,7 @@
     .landing-stat-left-top p {
         font-size: 16px;
     }
-    .landing-stat-left-bottom {
-        padding: 28px 20px;
-        gap: 1rem;
-    }
+
     .landing-stat-left-bottom .contents p {
         font-size: 13px;
     }
@@ -351,11 +413,7 @@
     .landing-stat-left-top h2 {
         font-size: 32px;
     }
-    .landing-stat-left-bottom {
-        display: flex;
-        gap: 2rem;
-        padding: 36px 32px;
-    }
+
     .landing-stat-left-bottom .contents h3 {
         font-size: 28px;
     }
@@ -373,8 +431,7 @@
 
     }
     .landing-stat-left-bottom {
-        display: flex;
-        gap: 1.5rem;
+
         padding: 32px 28px;
     }
 }
@@ -393,9 +450,7 @@
     .landing-stat-right{
         padding: 42px 28px;
     }
-    .landing-stat-left-bottom{
-        flex-direction: column;
-    }
+
     .landing-stat-right-img img {
         width: 90%;
         height: auto;
@@ -988,6 +1043,13 @@
     gap: 0.5rem;
     align-items: center;
 }
+.landing-marketing-left .link a{
+    font-size: 24px;
+    font-family: var(--p-font);
+    color: var(--h-white);
+    font-weight: 500;
+    line-height: 140%;
+}
 .landing-marketing-left .link span{
     font-size: 18px;
     font-family: var(--p-font);
@@ -1028,6 +1090,7 @@
     width: 100%;
     font-size: 16px;
     font-family: var(--p-font);
+    border-radius: 10px;
 }
 .landing-marketing-right .input input:focus{
     border: 0; 
@@ -1064,6 +1127,9 @@ background-color: #414abb;
     .landing-marketing-right .input {
         width: 100%;
     }
+    .landing-marketing-left .link a {
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width:800px){
     .landing-marketing-container{
@@ -1084,7 +1150,7 @@ background-color: #414abb;
         width: 90%;
         gap: 1.5rem;
     }
-    .landing-marketing-left .link span {
+    .landing-marketing-left .link a {
         font-size: 16px;
     }
 }

@@ -66,19 +66,17 @@ export const LandingAudienceData = [
 
   export const LandingReviewData = [
     {
-        review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus elementum sem. Aenean euismod finibus.",
-        name:"First Name"
+        review:"AI has completely transformed our marketing strategies! The insights we get are simply unparalleled.",
+        name:"Ananya Gupta"
     },
     {
-        review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus elementum sem. Aenean euismod finibus.",
-        name:"First Name"
+        review:"I can't believe how much easier it is to analyze our data now. We've saved hours of work each week!",
+        name:"Arjun Menon"
     },
     {
-        review:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus elementum sem. Aenean euismod finibus.",
-        name:"First Name"
+        review:"This platform gave us an edge over our competitors. Highly recommend for anyone looking to grow their marketing efforts.",
+        name:"Vivaan Joshi"
     },
   ]
 
-  export const LandingLogoData = [
-    
-  ]
+  

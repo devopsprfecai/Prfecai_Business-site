@@ -35,7 +35,7 @@ export const LandingAudience = () => {
               </div>
 
               <div className="link">
-                <p>Learn more</p>
+                <p onClick={openPopup} style={{cursor:"pointer"}}>Learn more</p>
                 <Image src={arrow} alt={`${item.title} Link`} width={20} height={20} />
               </div>
               <PopupForm isOpen={isPopupOpen} onClose={closePopup} />

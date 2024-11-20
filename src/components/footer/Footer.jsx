@@ -22,17 +22,17 @@ export const Footer = () => {
             </div>
             <div className='footer-contents'>
             <Image src={logo}/>
-            <span>@copyright prfec.ai, 2024</span>
           </div>
           </div>
           <div className='footer-right'>
-            <p>Join the community</p>
               <div className='footer-socials'>
                   <Image src={facebookWhite} alt='facebook'/>
                   <Image src={xWhite} alt='X'/>
                   <Image src={Instagram} alt='Instagram'/>
                   <Image src={Linkedin} alt='Linkedin'/>
               </div>
+              <p>@copyright prfec.ai, 2024</p>
+
           </div>
         </div>
     </div>

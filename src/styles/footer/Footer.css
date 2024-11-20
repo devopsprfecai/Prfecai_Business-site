@@ -75,6 +75,15 @@
     .footer-container{
         gap:3.5rem;
     }
+    .footer-contents img {
+        height: 24px;
+        margin-top: 10px;
+        width: auto;
+    }
+    .footer-left, .footer-right{
+        align-items: center;
+        justify-content: center;
+    }
     .footer-contents{
         flex-direction: column;
         gap: 2rem;

@@ -17,15 +17,17 @@ const LandingStat = () => {
                         <h3>20+</h3>
                         <p>Integrations</p>
                     </div>
-                    <hr />
                     <div className='contents'>
                         <h3>100+</h3>
                         <p>Features</p>
                     </div>
-                    <hr />
                     <div className='contents'>
                         <h3>5+</h3>
                         <p>Countries</p>
+                    </div>
+                    <div className='contents'>
+                        <h3>10x</h3>
+                        <p>Efficiency</p>
                     </div>
                     </div>
             </div>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import arrow from "@public/assets/Images/landing/arrow-white.svg";
 import firebase from "firebase/app";
 import "firebase/database"; // Import Firebase Realtime Database
+import Link from "next/link";
 
 const LandingMarketing = () => {
   const [formData, setFormData] = useState({
@@ -48,7 +49,7 @@ const LandingMarketing = () => {
             useful.
           </p>
           <div className="link">
-            <p>Check Resources</p>
+            <Link href="https://blog.prfec.ai/" >Check Resources</Link>
             <Image src={arrow} alt="icon" />
           </div>
         </div>
