@@ -9,11 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "file:14.0.5-canary.59",
     "country-state-city": "^3.2.1",
     "firebase": "^11.0.2",
     "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-select": "^5.8.3"
   },
   "devDependencies": {

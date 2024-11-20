@@ -133,9 +133,31 @@ const PopupForm = ({ isOpen, onClose }) => {
       })
     );
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
-    console.log("Form Submitted:", formData);
+    try {
+      // Store form data in Firebase Realtime Database
+      const response = await fetch(
+        'https://prfecai-businessformdata-default-rtdb.firebaseio.com/FreeConsulation.json',
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData), // Store the form data
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to store form data in Firebase");
+      }
+
+      // console.log("Form Submitted:", formData);
+      onClose(); // Close the popup after submitting
+    } catch (error) {
+      console.error("Error storing form data:", error);
+    }
+    // console.log("Form Submitted:", formData);
     onClose(); // Close the popup after submitting
   };
 
