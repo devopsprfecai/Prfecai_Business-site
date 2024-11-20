@@ -1,0 +1,106 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-container {
+    width: 380px;
+    height: max-content;
+    padding: 38px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--prfec-white);
+    border-radius: 16px;
+    position: relative;
+  }
+  
+  .popup-container h3 {
+    font-size: 24px;
+    font-family: var(--h-font);
+    color: var(--prfec-black);
+    font-weight: 600;
+  }
+  
+  .popup-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .popup-container form .input-container {
+    width: 100%;
+    height: 42px;
+    border: 1px solid var(--box-border);
+    border-radius: 8px;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .popup-container form .input-container input {
+    width: 100%;
+    font-size: 14px;
+    font-family: var(--p-font);
+    padding: 0px;
+    outline: none;
+    border: 0;
+
+  }
+  .popup-container form .input-container input:focus{
+    outline: none;
+    border: 0;
+  }
+  .popup-container form .css-13cymwt-control,
+  .popup-container form .css-16xfy0z-control {
+    border-radius: 8px;
+    height: 42px;
+    font-size: 14px;
+    font-family: var(--p-font);
+  }
+  
+  .popup-container form .css-hlgwow {
+    font-size: 14px;
+    font-family: var(--p-font);
+  }
+  
+  .popup-container form .button {
+    width: max-content;
+    height: max-content;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: var(--p-font);
+    color: var(--prfec-white);
+    background-color: var(--prfec-clr);
+    border-radius: 8px;
+    border: 0px;
+  }
+  
+  .popup-container form .button:hover {
+    background-color: #414abb;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 7px;
+    right: 16px;
+    font-size: 32px;
+    cursor: pointer;
+    color: var(--prfec-black);
+  }
+  
+  .close-icon:hover {
+    color: #414abb;
+  }
+  
