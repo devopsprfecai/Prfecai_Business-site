@@ -10,6 +10,7 @@ import TechnicalSeo from '@public/assets/Images/seo/technicalseo.svg'
 const BlogSingleData= [
   {
     id: "exploring-the-transformative-power-of-artificial-intelligence",
+    url: "https://blog.prfec.ai/exploring-the-transformative-power-of-artificial-intelligence",
     bgcolor: "#82a8fd",
     metaImage:"https://firebasestorage.googleapis.com/v0/b/prfecai-data.firebasestorage.app/o/AI.svg?alt=media&token=e6713170-fbd1-42a4-a365-7ec02551fb77",
     category: "Artificial Intelligence",
@@ -74,6 +75,7 @@ const BlogSingleData= [
   },
   {
     id: "your-guide-for-technical-seo-make-your-website-shine-for-search-engines",
+    url: "https://blog.prfec.ai/your-guide-for-technical-seo-make-your-website-shine-for-search-engines",
     bgcolor: "#82a8fd",
     metaImage:"https://firebasestorage.googleapis.com/v0/b/prfecai-data.firebasestorage.app/o/Technical%20SEO.svg?alt=media&token=823e57a5-335a-4ebc-89ae-e3e1805f5818",
     category: "SEO",
@@ -218,6 +220,7 @@ const BlogSingleData= [
   
   {
     id: "how-to-make-a-meta-ad-a-step-by-step-guide",
+    url: "https://blog.prfec.ai/how-to-make-a-meta-ad-a-step-by-step-guide",
     bgcolor: "#82a8fd",
     metaImage:"https://firebasestorage.googleapis.com/v0/b/prfecai-data.firebasestorage.app/o/Meta%20Ads%20(1).svg?alt=media&token=986bb087-b4a7-446d-9dcc-f578edfda11d",
     category: "Marketing",

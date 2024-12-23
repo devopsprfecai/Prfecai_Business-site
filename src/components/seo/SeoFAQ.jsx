@@ -101,9 +101,9 @@ const SeoFAQ = () => {
           </div>
           {isOpen3 && (
             <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[60%] lg:[60%] w-[70%]">
-              Technical SEO optimizes a website's backend to ensure search
-              engines can crawl,index, and rank it effectively.This includes
-              improving site speed, fixing broken links, ensuring
+              Technical SEO optimizes a websites backend to ensure search
+              engines can crawl, index, and rank it effectively.This includes
+              improving site speed, fixing broken links, ensuring 
               mobile-friendliness, and using structured data.
             </p>
           )}
@@ -112,7 +112,7 @@ const SeoFAQ = () => {
         {/*Q 4*/}
         <div>
           <div className="py-5 flex gap-[23%] text-[20px] lg:text-[28px] sm:text-[28px] md:text-[28px] font-medium">
-            <h2>How can image SEO enhance my site's visibility?</h2>
+            <h2>How can image SEO enhance my sites visibility?</h2>
             <p onClick={toggleParagraph4} className="cursor-pointer">
               {isOpen4 ? (
                 <IoIosArrowDown className="inline" />

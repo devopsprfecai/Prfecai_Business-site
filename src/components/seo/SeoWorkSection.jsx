@@ -52,11 +52,11 @@ function SeoWorkSection() {
               <div className="text-[17px] flex flex-col gap-2">
                 {" "}
                 <p>
-                  Off-Page SEO focuses on building your website's reputation and
+                  Off-Page SEO focuses on building your websites reputation and
                   authority through external efforts.
                 </p>
                 <p>
-                  These tactics help increase your website's trustworthiness and
+                  These tactics help increase your websites trustworthiness and
                   visibility on search engines by leveraging outside sources.
                 </p>
               </div>
