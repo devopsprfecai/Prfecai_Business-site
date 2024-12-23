@@ -1,5 +1,5 @@
 import React from "react";
-import BlogSingleData from "@app/seo/BlogSingleData";
+import BlogSingleData from "@data/BlogSingleData";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -16,7 +16,7 @@ function SeoBlog() {
 
           {BlogSingleData.slice(1, 5).map((item) => (
             <div className="lg:w-[30%] md:w-[45%] sm:w-[45%] " key={item.id}>
-              <Link href={item.url} className="flex flex-col gap-[1rem]">
+              <Link href={item.url || 'https://blog.prfec.ai'} className="flex flex-col gap-[1rem]">
                 <div className="">
                   <Image src={item.image} alt={item.alt} className="rounded-[15px]" height="max-content" />
                 </div>

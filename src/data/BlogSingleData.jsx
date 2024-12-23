@@ -355,6 +355,7 @@ const BlogSingleData= [
   },
   {
     id: "how-to-leverage-customer-segmentation-for-better-targeting",
+    url: "https://blog.prfec.ai/how-to-leverage-customer-segmentation-for-better-targeting",
     bgcolor: "#82a8fd",
     metaImage:"https://firebasestorage.googleapis.com/v0/b/prfecai-data.firebasestorage.app/o/Analytics.svg?alt=media&token=6f6d0cf5-1997-4581-a376-a54eb54cac2a",
     category: "SEO",
