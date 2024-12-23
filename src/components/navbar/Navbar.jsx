@@ -5,16 +5,18 @@ import Link from 'next/link';
 import Image from 'next/image';
 // import Logo from '@public/assets/Images/navbar/prfec-logo.png';
 import Logo from '@public/assets/Images/navbar/Prfec Logo White.png'
-import Hamburger from '@public/assets/Images/navbar/hamburger.png';
-import Close from '@public/assets/Images/navbar/close.png';
+import Hamburger from '@public/assets/Images/navbar/hamburger.svg';
+import Close from '@public/assets/Images/navbar/close.svg';
 import DefaultProfile from '@public/assets/Images/navbar/default.svg'
 import { UserAuth } from '@context/AuthContext';
 import { useRouter } from "next/navigation";
+import prfec from '@public/assets/Images/navbar/prfec.svg'
 
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [hover, setHover] = useState(false);
+  const [dropOpen, setDropOpen] = useState(false);
   const router = useRouter();
 
   const menuRef = useRef(null);
@@ -33,6 +35,7 @@ export const Navbar = () => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
         setMenuOpen(false);
+        setDropOpen(false);
       }
     };
 
@@ -45,6 +48,9 @@ export const Navbar = () => {
 
   const handleDropDown = () => {
     setHover(!hover);
+  };
+  const handleServiceDropDown = () => {
+    setDropOpen(!dropOpen);
   };
 
   const handleLogOut = async () => {
@@ -85,13 +91,17 @@ export const Navbar = () => {
       <div className='navbar-container'>
         <div className='navbar-logo'>
           <Link href="/" onClick={handleLinkClick}>
-            <Image className='prfec-logo' src={Logo} alt="Logo" />
+            <Image className='prfec-logo' src={prfec} alt="Logo" />
           </Link>
         </div>
 
         {!loading && !user ? (
         <div className='navbar-contents'>
-          <div className='navbar-contents-category'>Services</div>
+          <div className='navbar-contents-category' onClick={handleServiceDropDown}>Services</div>
+         {dropOpen && <div className='navbar-service-dropdown'>
+            <Link href='/seo'>SEO</Link>
+          </div>}
+ 
           <div className='navbar-contents-category'>Resources</div>
           <div className='navbar-contents-category'>Contact us</div>
           <Link href="https://prfec.ai/login" className='navbar-login' onClick={handleLinkClick} style={{marginLeft:"10px"}}>Get Started</Link>

@@ -5,7 +5,8 @@
   padding: 8px 0px;
   position: fixed;
   z-index: 100;
-  background-color: var(--prfec-black);
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   height: 64px;
 }
 .navbar-container {
@@ -17,33 +18,46 @@
   position: relative;
 }
 .navbar-logo a,
-  .navbar-logo {
+.navbar-logo {
   display: flex;
   align-items: center;
-  }
+}
 .prfec-logo {
   height: 24px;
   width: auto;
 }
-.navbar-contents{
+.navbar-contents {
   display: flex;
   gap: 1.3rem;
   align-items: center;
 }
-.navbar-contents-category{
+.navbar-contents-category {
   font-size: 16px;
   font-family: var(--p-font);
   font-weight: 500;
-  color: var(--p-white);
+  color: black;
+  cursor: pointer;
 }
-.navbar-contents-category:hover{
-  color: var(--h-white);
+.navbar-contents-category:hover {
+  color: black;
 }
-.navbar-login{
+.navbar-service-dropdown{
+  width: 160px;
+  padding: 16px;
+  border: 1px solid var(--box-border);
+  border-radius: 16px;
+  background-color: var(--prfec-white);
+  position: absolute;
+  top: 71px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.navbar-login {
   width: max-content;
   padding: 6px 20px;
-  border:2px solid var(--prfec-clr);
-  border-radius:10px;
+  border: 2px solid var(--prfec-clr);
+  border-radius: 10px;
   background-color: var(--prfec-clr);
   font-size: 16px;
   font-family: var(--p-font);
@@ -52,17 +66,17 @@
   display: flex;
   align-items: center;
 }
-.navbar-login:hover{
+.navbar-login:hover {
   border: 2px solid #414abb;
   background-color: #414abb;
   color: var(--h-white);
 }
-.navbar-signup{
+.navbar-signup {
   width: max-content;
   height: 42px;
   padding: 6px 28px;
-  border:1px solid var(--box-border);
-  border-radius:14px;
+  border: 1px solid var(--box-border);
+  border-radius: 14px;
   background-color: var(--prfec-clr);
   font-size: 16px;
   font-family: var(--p-font);
@@ -71,11 +85,11 @@
   display: flex;
   align-items: center;
 }
-.navbar-signup:hover{
+.navbar-signup:hover {
   background-color: #ffffff;
   color: var(--h-black);
 }
-.navbar-profile-container{
+.navbar-profile-container {
   border-radius: 100%;
   background-color: #f8f8f8;
   display: flex;
@@ -85,7 +99,7 @@
   font-family: var(--p-font);
   position: relative;
 }
-.navbar-profile-image{
+.navbar-profile-image {
   border-radius: 50%;
 }
 .navbar-profile-dropdown {
@@ -117,35 +131,36 @@
 .navbar-profile-dropdown p:first-child {
   border-radius: 0px;
 }
-.navbar-menu-icons, .navbar-menu{
+.navbar-menu-icons,
+.navbar-menu {
   display: none;
 }
 
-@media only screen and (max-width:1024px){
-  .navbar-contents{
-      display: none;
+@media only screen and (max-width: 1024px) {
+  .navbar-contents {
+    display: none;
   }
-  .navbar-menu-icons{
-      display: flex;
-      align-items: center;
-      height: max-content;
+  .navbar-menu-icons {
+    display: flex;
+    align-items: center;
+    height: max-content;
   }
-  .navbar-menu-icons img{
-      width: 28px;
-      height: 28px;
+  .navbar-menu-icons img {
+    width: 28px;
+    height: 28px;
   }
-  .navbar-menu{
-      display: flex;
-      /* width: 200px; */
-      flex-direction: column;
-      gap: 1rem;
-      padding: 28px;
-      border:1px solid var(--box-border);
-      border-radius:16px;
-      position: absolute;
-      right: 0;
-      top: 50px;
-      background-color: var(--prfec-black);
+  .navbar-menu {
+    display: flex;
+    /* width: 200px; */
+    flex-direction: column;
+    gap: 1rem;
+    padding: 28px;
+    border: 1px solid var(--box-border);
+    border-radius: 16px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: var(--prfec-white);
   }
   .navbar-menu p {
     width: 110px;
@@ -155,25 +170,25 @@
     font-family: var(--p-font);
     cursor: pointer;
   }
-  .navbar-menu button{
-      width: 100%;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  .navbar-menu button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .navbar-login, .navbar-signup{
+  .navbar-login,
+  .navbar-signup {
     width: 100%;
     display: flex;
     justify-content: center;
   }
 }
-@media only screen and (max-width:600px){
-  .navbar{
+@media only screen and (max-width: 600px) {
+  .navbar {
     height: 54px;
   }
-.navbar-container{
-  width: 90%;
-}
-
+  .navbar-container {
+    width: 90%;
+  }
 }
