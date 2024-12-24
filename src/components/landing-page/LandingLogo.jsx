@@ -25,7 +25,6 @@ const LandingLogo = () => {
                     <Image src={Wati}  height={24} alt="logo" />
                 </div>
                 <div className='landing-partners-logo'>
-                    {/* First set of logos */}
                     <Image src={Logo}  height={24} alt="logo" />
                     <Image src={Clickup}  height={24} alt="logo" />
                     <Image src={Grphy}  height={24} alt="logo" />
@@ -35,7 +34,6 @@ const LandingLogo = () => {
                     <Image src={Wati}  height={24} alt="logo" />
                 </div>
                 <div className='landing-partners-logo'>
-                    {/* First set of logos */}
                     <Image src={Logo}  height={24} alt="logo" />
                     <Image src={Clickup}  height={24} alt="logo" />
                     <Image src={Grphy}  height={24} alt="logo" />
