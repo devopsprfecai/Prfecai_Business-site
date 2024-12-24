@@ -18,7 +18,7 @@ function SeoBlog() {
             <div className="lg:w-[30%] md:w-[45%] sm:w-[45%] " key={item.id}>
               <Link href={item.url || 'https://blog.prfec.ai'} className="flex flex-col gap-[1rem]">
                 <div className="">
-                  <Image src={item.image} alt={item.alt} className="rounded-[15px]" height="max-content" />
+                  <Image src={item.image} alt={item.alt} className="rounded-[15px] w-[100%]" height="max-content" />
                 </div>
                 <div className="flex flex-col gap-[0.5rem]">
                   <div className="text-[20px] sm:text-[24px] font-semibold ">
