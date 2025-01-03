@@ -3,7 +3,7 @@
 import PopupForm from "@components/landing-page/PopupForm";
 import React, { useState } from "react";
 
-const smaHero = () => {
+const SmaHero = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const openPopup = () => setIsPopupOpen(true);
   const closePopup = () => setIsPopupOpen(false);
@@ -41,4 +41,4 @@ const smaHero = () => {
   );
 };
 
-export default smaHero;
+export default SmaHero;
