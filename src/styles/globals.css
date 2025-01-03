@@ -30,8 +30,13 @@
       margin: 0;
       overflow-y: scroll;
     }
-
     
+    /* Custom CSS */
+img, video {
+  max-width: unset;
+  height: unset;
+}
+
 
 
 
