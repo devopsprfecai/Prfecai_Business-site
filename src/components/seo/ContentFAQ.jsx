@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 
-const SeoFAQ = () => {
+const ContentFAQ = () => {
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
@@ -37,21 +37,21 @@ const SeoFAQ = () => {
 
   return (
     <div className="flex justify-center item-center bg-[#FFFEF2] py-[90px] xl:py-[110px]">
-      <div className="w-[90%] xl:w-[85%] lg:w-[90%] md:w-[90%] flex flex-col ">
-        <h1 className="text-black text-center font-semibold font-firansans lg:text-[50px] md:text-[40px] text-[35px]">
+      <div className="w-[90%] xl:w-[85%] lg:w-[85%] md:w-[85%] flex flex-col ">
+        <h1 className="text-black md:text-center text-center font-semibold font-firansans lg:text-[50px] md:text-[40px] text-[35px]">
           Frequently Asked Questions
         </h1>
 
         {/* Q 1 */}
         <div className="flex justify-center">
-          <div className="w-[70%]">
+          <div className="w-[75%]">
             <div className="pt-[2rem] border-b border-gray-400 py-2">
               <div
                 onClick={toggleParagraph1}
-                className="py-3 flex lg:gap-[40%] md:gap-[40%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-1 flex lg:gap-[25%] md:gap-[25%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  What is on-page SEO and why is it important?
+                  What is content marketing, and how can it benefit my business?
                 </h2>
                 <p className="cursor-pointer">
                   {isOpen1 ? (
@@ -62,12 +62,10 @@ const SeoFAQ = () => {
                 </p>
               </div>
               {isOpen1 && (
-                <p className="sm:text-[20px] lg:text-[18px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[60%] lg:w-[90%] w-[100%]">
-                  On-page SEO involves optimizing individual web pages to
-                  improve their search engine ranking and drive relevant
-                  traffic. It includes tasks like using targeted keywords,
-                  creating quality content, optimizing meta tags, and improving
-                  internal linking.
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[100%]">
+                  Content marketing is a strategic approach focused on creating
+                  and distributing valuable, relevant, and consistent content to
+                  attract and retain a defined audience.
                 </p>
               )}
             </div>
@@ -76,10 +74,10 @@ const SeoFAQ = () => {
             <div className="pt-[2rem] border-b border-gray-400 py-2">
               <div
                 onClick={toggleParagraph2}
-                className="py-3 flex lg:gap-[35.5%] md:gap-[35.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-1 flex lg:gap-[28%] md:gap-[28%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  How does off-page SEO differ from on-page SEO?
+                  How long does it take to see results from content marketing?
                 </h2>
                 <p className="cursor-pointer">
                   {isOpen2 ? (
@@ -90,10 +88,11 @@ const SeoFAQ = () => {
                 </p>
               </div>
               {isOpen2 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[85%] lg:w-[85%] w-[100%]">
-                  Off-page SEO focuses on activities outside your website that
-                  impact your ranking,like building backlinks,increasing brand
-                  mentions, and leveraging social media.
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                  Content marketing is a long-term strategy. While some results,
+                  such as increased website traffic, can be seen within a few
+                  months, significant outcomes like improved rankings and higher
+                  conversion rates may take 6–12 months.
                 </p>
               )}
             </div>
@@ -102,10 +101,10 @@ const SeoFAQ = () => {
             <div className="pt-[2rem] border-b border-gray-400 py-2">
               <div
                 onClick={toggleParagraph3}
-                className="py-3 flex lg:gap-[21.5%] md:gap-[21.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-1 flex lg:gap-[34%] md:gap-[34%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  What is technical SEO, and how it improves site performance?
+                  What types of content are most effective for marketing?{" "}
                 </h2>
                 <p className="cursor-pointer">
                   {isOpen3 ? (
@@ -116,11 +115,11 @@ const SeoFAQ = () => {
                 </p>
               </div>
               {isOpen3 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[85%] lg:[85%] w-[70%]">
-                  Technical SEO optimizes a websites backend to ensure search
-                  engines can crawl, index, and rank it effectively.This
-                  includes improving site speed, fixing broken links, ensuring
-                  mobile-friendliness, and using structured data.
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                  The most effective types of content vary based on your
+                  audience and goals but often include blog posts, infographics,
+                  videos, eBooks, case studies, email newsletters, and social
+                  media updates.
                 </p>
               )}
             </div>
@@ -129,10 +128,11 @@ const SeoFAQ = () => {
             <div className="pt-[2rem] border-b border-gray-400 py-2">
               <div
                 onClick={toggleParagraph4}
-                className="py-3 flex lg:gap-[38.5%] md:gap-[38.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-1 flex lg:gap-[19%] md:gap-[19%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  How can image SEO enhance my sites visibility?
+                  Do I need a content marketing strategy, or can I just publish
+                  content?{" "}
                 </h2>
                 <p className="cursor-pointer">
                   {isOpen4 ? (
@@ -143,25 +143,22 @@ const SeoFAQ = () => {
                 </p>
               </div>
               {isOpen4 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[85%] lg:[85%] w-[70%]">
-                  Image SEO involves optimizing images to improve website
-                  performance and visibility in image search results.Key
-                  practices include using descriptive filenames, adding alt text
-                  with keywords, compressing image file for faster loading, and
-                  choosing responsive images.
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                  A content marketing strategy is essential for success. It
+                  ensures that your content aligns with your business goals,
+                  targets the right audience, and addresses their pain points.
                 </p>
               )}
             </div>
 
             {/*Q 5*/}
-            <div className="pt-[2rem]  py-2">
+            <div className="pt-[2rem] py-2">
               <div
                 onClick={toggleParagraph5}
-                className="py-3 flex lg:gap-[17.5%] md:gap-[17.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-1 flex lg:gap-[25.5%] md:gap-[25.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  What is e-commerce SEO, and how is it tailored for online
-                  stores?
+                  How do I measure the success of my content marketing efforts?{" "}
                 </h2>
                 <p className="cursor-pointer">
                   {isOpen5 ? (
@@ -172,11 +169,10 @@ const SeoFAQ = () => {
                 </p>
               </div>
               {isOpen5 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[85%] lg:[85%] w-[70%]">
-                  E-commerce SEO focuses on optimizing online stores to attract
-                  and convert shoppers. Strategies include optimizing product
-                  pages with targeted keywords, improving navigation, adding
-                  schema markup for rich snippets, and ensuring fast load times.
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                  Success can be measured through various metrics, such as
+                  website traffic, engagement (likes, shares, comments), lead
+                  generation, conversion rates, and ROI.
                 </p>
               )}
             </div>
@@ -187,4 +183,4 @@ const SeoFAQ = () => {
   );
 };
 
-export default SeoFAQ;
+export default ContentFAQ;

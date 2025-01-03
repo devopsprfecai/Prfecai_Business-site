@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 
-const SeoFAQ = () => {
+const SmaFAQ = () => {
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
@@ -36,22 +36,22 @@ const SeoFAQ = () => {
   };
 
   return (
-    <div className="flex justify-center item-center bg-[#FFFEF2] py-[90px] xl:py-[110px]">
-      <div className="w-[90%] xl:w-[85%] lg:w-[90%] md:w-[90%] flex flex-col ">
-        <h1 className="text-black text-center font-semibold font-firansans lg:text-[50px] md:text-[40px] text-[35px]">
+    <div className="flex justify-center item-center bg-[#F2FAFF] py-[90px] xl:py-[110px]">
+      <div className="w-[90%] xl:w-[85%] lg:w-[85%] md:w-[85%] flex flex-col ">
+        <h1 className="text-black md:text-center font-semibold text-center font-firansans lg:text-[50px] md:text-[40px] text-[35px]">
           Frequently Asked Questions
         </h1>
 
         {/* Q 1 */}
         <div className="flex justify-center">
-          <div className="w-[70%]">
+          <div className="w-[75%]">
             <div className="pt-[2rem] border-b border-gray-400 py-2">
               <div
                 onClick={toggleParagraph1}
-                className="py-3 flex lg:gap-[40%] md:gap-[40%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-3 flex lg:gap-[31%] md:gap-[31%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  What is on-page SEO and why is it important?
+                  What is social media advertising, and how does it work?{" "}
                 </h2>
                 <p className="cursor-pointer">
                   {isOpen1 ? (
@@ -63,11 +63,9 @@ const SeoFAQ = () => {
               </div>
               {isOpen1 && (
                 <p className="sm:text-[20px] lg:text-[18px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[60%] lg:w-[90%] w-[100%]">
-                  On-page SEO involves optimizing individual web pages to
-                  improve their search engine ranking and drive relevant
-                  traffic. It includes tasks like using targeted keywords,
-                  creating quality content, optimizing meta tags, and improving
-                  internal linking.
+                  Social media advertising involves using paid ads on platforms
+                  like Facebook, Instagram, LinkedIn, or Twitter to promote
+                  products, services, or content.
                 </p>
               )}
             </div>
@@ -76,13 +74,13 @@ const SeoFAQ = () => {
             <div className="pt-[2rem] border-b border-gray-400 py-2">
               <div
                 onClick={toggleParagraph2}
-                className="py-3 flex lg:gap-[35.5%] md:gap-[35.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-3 flex lg:gap-[33%] md:gap-[33%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  How does off-page SEO differ from on-page SEO?
+                  Which social media platforms are best for advertising?{" "}
                 </h2>
                 <p className="cursor-pointer">
-                  {isOpen2 ? (
+                {isOpen2 ? (
                     <IoIosArrowUp className="inline" />
                   ) : (
                     <IoIosArrowDown />
@@ -90,10 +88,12 @@ const SeoFAQ = () => {
                 </p>
               </div>
               {isOpen2 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[85%] lg:w-[85%] w-[100%]">
-                  Off-page SEO focuses on activities outside your website that
-                  impact your ranking,like building backlinks,increasing brand
-                  mentions, and leveraging social media.
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[100%]">
+                  The best platform depends on your business and audience. For
+                  example: Facebook & Instagram: Ideal for visual content and
+                  reaching a broad audience. LinkedIn: Perfect for B2B marketing
+                  and professional services. Twitter: Great for real-time
+                  updates and conversations.
                 </p>
               )}
             </div>
@@ -102,13 +102,13 @@ const SeoFAQ = () => {
             <div className="pt-[2rem] border-b border-gray-400 py-2">
               <div
                 onClick={toggleParagraph3}
-                className="py-3 flex lg:gap-[21.5%] md:gap-[21.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-3 flex lg:gap-[42%] md:gap-[42%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  What is technical SEO, and how it improves site performance?
+                  How much does social media advertising cost?{" "}
                 </h2>
                 <p className="cursor-pointer">
-                  {isOpen3 ? (
+                {isOpen3 ? (
                     <IoIosArrowUp className="inline" />
                   ) : (
                     <IoIosArrowDown />
@@ -116,11 +116,11 @@ const SeoFAQ = () => {
                 </p>
               </div>
               {isOpen3 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[85%] lg:[85%] w-[70%]">
-                  Technical SEO optimizes a websites backend to ensure search
-                  engines can crawl, index, and rank it effectively.This
-                  includes improving site speed, fixing broken links, ensuring
-                  mobile-friendliness, and using structured data.
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                  Costs vary depending on the platform, ad type, and competition
+                  in your industry. Most platforms use a pay-per-click (PPC) or
+                  cost-per-thousand-impressions (CPM) model, allowing you to set
+                  budgets and control spending.
                 </p>
               )}
             </div>
@@ -129,13 +129,13 @@ const SeoFAQ = () => {
             <div className="pt-[2rem] border-b border-gray-400 py-2">
               <div
                 onClick={toggleParagraph4}
-                className="py-3 flex lg:gap-[38.5%] md:gap-[38.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-3 flex lg:gap-[32.5%] md:gap-[32.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  How can image SEO enhance my sites visibility?
+                  How can I measure the success of my social media ads?{" "}
                 </h2>
                 <p className="cursor-pointer">
-                  {isOpen4 ? (
+                {isOpen4 ? (
                     <IoIosArrowUp className="inline" />
                   ) : (
                     <IoIosArrowDown />
@@ -143,12 +143,12 @@ const SeoFAQ = () => {
                 </p>
               </div>
               {isOpen4 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[85%] lg:[85%] w-[70%]">
-                  Image SEO involves optimizing images to improve website
-                  performance and visibility in image search results.Key
-                  practices include using descriptive filenames, adding alt text
-                  with keywords, compressing image file for faster loading, and
-                  choosing responsive images.
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                  Success can be measured using metrics such as reach,
+                  impressions, click-through rate (CTR), engagement (likes,
+                  shares, comments), conversions, and return on ad spend (ROAS).
+                  Use tools like Facebook Ads Manager or Google Analytics to
+                  track performance.
                 </p>
               )}
             </div>
@@ -157,14 +157,13 @@ const SeoFAQ = () => {
             <div className="pt-[2rem]  py-2">
               <div
                 onClick={toggleParagraph5}
-                className="py-3 flex lg:gap-[17.5%] md:gap-[17.5%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
+                className="py-3 flex lg:gap-[22%] md:gap-[22%] text-[20px] lg:text-[24px] sm:text-[24px] md:text-[24px] font-medium"
               >
                 <h2 className="cursor-pointer">
-                  What is e-commerce SEO, and how is it tailored for online
-                  stores?
+                  What are common mistakes to avoid in social media advertising?
                 </h2>
                 <p className="cursor-pointer">
-                  {isOpen5 ? (
+                {isOpen5 ? (
                     <IoIosArrowUp className="inline" />
                   ) : (
                     <IoIosArrowDown />
@@ -172,11 +171,11 @@ const SeoFAQ = () => {
                 </p>
               </div>
               {isOpen5 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[85%] lg:[85%] w-[70%]">
-                  E-commerce SEO focuses on optimizing online stores to attract
-                  and convert shoppers. Strategies include optimizing product
-                  pages with targeted keywords, improving navigation, adding
-                  schema markup for rich snippets, and ensuring fast load times.
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                  Common mistakes include: Poor targeting or audience research.
+                  Ignoring ad creative (images, videos, and copy). Not testing
+                  different ad formats or strategies. Overlooking analytics and
+                  performance data. Failing to set clear goals for campaigns.
                 </p>
               )}
             </div>
@@ -187,4 +186,4 @@ const SeoFAQ = () => {
   );
 };
 
-export default SeoFAQ;
+export default SmaFAQ;

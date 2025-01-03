@@ -80,6 +80,7 @@ export const Navbar = () => {
       setHover(false);
       document.body.classList.remove("overflow");
       router.push(targetPath);
+      onClose();
     }
   }
   if (loading) {
@@ -100,6 +101,9 @@ export const Navbar = () => {
           <div className='navbar-contents-category' onClick={handleServiceDropDown}>Services</div>
          {dropOpen && <div className='navbar-service-dropdown'>
             <Link href='/seo'>SEO</Link>
+            <Link href='/content'>Content</Link>
+            <Link href='/email'>Email</Link>
+            <Link href='/sma'>Social Media Advertising</Link>
           </div>}
  
           <div className='navbar-contents-category'>Resources</div>

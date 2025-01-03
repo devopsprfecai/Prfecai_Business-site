@@ -12,9 +12,9 @@ function SeoLastSection() {
           <input 
           placeholder=" Enter Your Email"
           className="rounded-[5px]  border-2 border-white lg:h-[45px] lg:w-[48%] md:h-[45px] md:w-[48%] sm:w-[80%] sm:h-[40px] h-[40px] w-[100%]"/>
-          <button className="border-2 border-white lg:ml-[-10px] md:ml-[-10px] rounded-[5px] md:mt-0 mt-8 ml-16 lg:mt-0 lg:ml-0 bg-[#515BDA] text-white p-2 px-6 ">
+          <div className="flex justify-center"><button className="border-2 border-white lg:ml-[-10px] md:ml-[-10px] rounded-[5px] md:mt-0 mt-8 lg:mt-0 lg:ml-0 bg-[#515BDA] text-white p-2 px-6 ">
             Submit
-          </button>
+          </button></div>
         </div>
       </div>
     </div>

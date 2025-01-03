@@ -9,7 +9,7 @@ function SeoWorkSection() {
       <div className="flex justify-center item-center">
         <div className="flex flex-col gap-[2.5rem] xl:w-[85%] lg:w-[85%] sm:w-[90%] w-[90%] lg:flex-col xl:flex-row">
           <div className="flex flex-col gap-[1.2rem]">
-            <h1 className="text-black  md:text-start font-semibold font-firansans lg:text-[50px] md:text-[40px] text-[32px]">
+            <h1 className="text-black leading-[120%] md:text-start font-semibold font-firansans lg:text-[50px] md:text-[40px] text-[32px]">
               Make SEO work across pages
             </h1>
             <div className="">
@@ -26,7 +26,7 @@ function SeoWorkSection() {
 
             <div className="rounded-[32px] border-[#9B9898] bg-[#ffffff] flex flex-col gap-3 md:w-[350px] md:h-[420px] w-[100%] h-[420px] sm:w-[390px] sm:h-[430px] lg:w-[350px] lg:h-[370px] p-[24px] border">
               <Image className="w-[60px]" alt="" src={OnPage} />
-              <h1 className="text-[24px] md:text-[28px] lg:text-[28px] text-black font-semibold">
+              <h1 className="text-[24px] md:text-[24px] lg:text-[24px] text-black font-semibold">
                 On-Page SEO
               </h1>
               <div className="text-[17px] flex flex-col gap-2">
@@ -46,7 +46,7 @@ function SeoWorkSection() {
 
             <div className="rounded-[32px] border-[#9B9898] bg-[#ffffff] flex flex-col gap-3 md:w-[350px] md:h-[420px] w-[100%] h-[420px] sm:w-[390px] sm:h-[430px] lg:w-[350px] lg:h-[370px]  p-[24px] border">
               <Image className="w-[60px]" alt="" src={filepageseo} />
-              <h1 className="text-[24px] md:text-[28px] lg:text-[28px] text-black font-semibold">
+              <h1 className="text-[24px] md:text-[24px] lg:text-[24px] text-black font-semibold">
                 Off-Page SEO
               </h1>
               <div className="text-[17px] flex flex-col gap-2">
