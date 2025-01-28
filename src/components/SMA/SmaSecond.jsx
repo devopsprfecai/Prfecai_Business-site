@@ -35,12 +35,12 @@ function SmaSecond() {
     <div className="font-firansans lg:gap-10 pt-24 pb-20 lg:flex lg:justify-center bg-[#F2F2FF] lg:item-center">
       <div className="w-[90%] ml-5 md:ml-40 lg:ml-0 md:w-[60%] bg-white text-white p-7 rounded-[32px] border lg:w-[40%] lg:h-[500px]">
         <h1 className="lg:text-[50px] md:text-[50px] leading-[130%] text-black text-[28px] sm:text-[35px] md:text-center lg:text-start md:text-start  sm:text-start font-semibold">
-          It's More Than Social Media Advertising{" "}
+          Its More Than Social Media Advertising{" "}
         </h1>
         <p className="text-start font-light text-black leading-[170%] py-5 text-[18px] md:text-[18px] md:w-[85%] lg:text-[20px] lg:w-[80%]">
           Social media ads are great for getting noticed, but building a
           successful brand goes far beyond just running campaigns. A strong
-          brand isn’t just about grabbing attention; it’s about creating trust,
+          brand isnt just about grabbing attention; its about creating trust,
           telling your story, and building real connections with your audience.
         </p>
       </div>

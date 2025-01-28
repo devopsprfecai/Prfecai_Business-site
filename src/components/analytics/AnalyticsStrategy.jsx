@@ -32,7 +32,7 @@ function AnalyticsStrategy() {
             <div className="flex flex-col gap-2">
               {" "}
               <p className="text-[17px]">
-                Summaries quantitative data by presenting statistics. For
+                Summaries quantitative data by presenting statistics.For
                 example, it can show sales distribution across a group of
                 employees. 
               </p>
@@ -47,7 +47,7 @@ function AnalyticsStrategy() {
               {" "}
               <p className="text-[17px]">
                 Determines why something happened by detecting correlations
-                between variables. For example, it can help determine why a
+                between variables.For example, it can help determine why a
                 clothing store saw a decrease in revenue for t-shirt sales. 
               </p>
             </div>
@@ -61,7 +61,7 @@ function AnalyticsStrategy() {
               {" "}
               <p className="text-[17px]">
                 Studies historical data to identify patterns and forecast future
-                outcomes. For example, it can be used to predict seasonal sales,
+                outcomes.For example, it can be used to predict seasonal sales,
                 such as holiday sales in retail. 
               </p>
             </div>
@@ -74,7 +74,7 @@ function AnalyticsStrategy() {
             <div className="flex flex-col gap-2">
               {" "}
               <p className="text-[17px]">
-                Uses data to make predictions about the future. For example,
+                Uses data to make predictions about the future.For example,
                 retailers can use predictive models to forecast inventory
                 requirements, manage shipping schedules, and configure store
                 layouts. 
@@ -103,7 +103,7 @@ function AnalyticsStrategy() {
               {" "}
               <p className="text-[17px]">
                 Uses algorithms and statistical methods to extract patterns and
-                knowledge from large datasets. This can help organizations
+                knowledge from large datasets.This can help organizations
                 discover hidden patterns and relationships in data. 
               </p>
             </div>

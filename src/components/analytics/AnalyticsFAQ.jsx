@@ -89,9 +89,9 @@ const AnalyticsFAQ = () => {
               {isOpen2 && (
                 <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[100%]">
                   Analytics helps you make data-driven decisions by providing
-                  insights into what works and what doesn’t. This leads to
+                  insights into what works and what doesnt. This leads to
                   improved marketing strategies, higher ROI, and a better
-                  understanding of your audience’s needs.
+                  understanding of your audiences needs.
                 </p>
               )}
             </div>
@@ -142,7 +142,7 @@ const AnalyticsFAQ = () => {
               </div>
               {isOpen4 && (
                 <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[60%] lg:[60%] w-[70%]">
-                  It's important to review your analytics regularly—weekly or
+                  Its important to review your analytics regularly—weekly or
                   monthly depending on your campaign goals. This ensures you can
                   identify trends, adjust strategies, and stay on track to
                   achieve your objectives.

@@ -20,7 +20,7 @@ function AnalyticsSecond() {
         <p className="text-start font-light text-black leading-[170%] py-3 text-[18px] md:text-[18px] md:w-[85%] lg:text-[20px] lg:w-[80%]">
           Analytics and reporting are essential for understanding performance,
           but building a successful strategy goes far beyond just tracking data.
-          Effective reporting isn’t just about collecting numbers; it’s about
+          Effective reporting isnt just about collecting numbers; its about
           deriving insights, making informed decisions, and continuously
           optimising to foster growth and strengthen connections with your
           audience.

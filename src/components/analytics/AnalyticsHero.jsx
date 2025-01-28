@@ -4,9 +4,9 @@ import PopupForm from "@components/landing-page/PopupForm";
 import React, { useState } from "react";
 
 const AnalyticsHero = () => {
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const openPopup = () => setIsPopupOpen(true);
-  const closePopup = () => setIsPopupOpen(false);
+  const [isPopupOpen, setIsPopupOpen] = useState(false)
+  const openPopup = () => setIsPopupOpen(true)
+  const closePopup = () => setIsPopupOpen(false)
 
   return (
     <div>
