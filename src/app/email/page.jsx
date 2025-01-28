@@ -1,8 +1,9 @@
-import ContentStrategy from '@components/seo/ContentStrategy'
-import EmailFAQ from '@components/seo/EmailFAQ'
-import EmailGrow from '@components/seo/EmailGrow'
-import EmailHeroPage from '@components/seo/EmailHeroPage'
-import EmailLastSession from '@components/seo/EmailLastSection'
+import ContentStrategy from '@components/Email/ContentStrategy'
+import EmailFAQ from '@components/Email/EmailFAQ'
+import EmailGrow from '@components/Email/EmailGrow'
+import EmailHeroPage from '@components/Email/EmailHeroPage'
+import EmailLastSection from '@components/Email/EmailLastSection'
+import EmailLastSession from '@components/Email/EmailLastSection'
 import SeoResult from '@components/seo/SeoResult'
 import React from 'react'
 
@@ -14,7 +15,7 @@ function page() {
     <ContentStrategy/>
     <SeoResult/>
     <EmailFAQ/>
-    <EmailLastSession/>
+    <EmailLastSection/>
     </>
   )
 }

@@ -3,7 +3,7 @@
 import PopupForm from "@components/landing-page/PopupForm";
 import React, { useState } from "react";
 
-const EmailHeroPage = () => {
+const HeroPage = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const openPopup = () => setIsPopupOpen(true);
   const closePopup = () => setIsPopupOpen(false);
@@ -12,17 +12,15 @@ const EmailHeroPage = () => {
     <div>
       <div className="pt-[200px] pb-[180px] md:p-24 md:pt-[140px] lg:pt-[200px] lg:pb-[180px]">
         <h1 className="text-black font-semibold font-firansans lg:text-[72px] md:text-[55px] text-center md:text-[40px] text-[36px]">
-          Email Marketing
-        </h1>
+        Pay-Per-Click Advertising        </h1>
         <div className="justify-center flex">
           {" "}
-          <p className="text-center leading-[170%] md:text-[21px] lg:text-[20px] w-[60%] pt-[18px]">
-            Email marketing is the process of using email to connect with potential customers,
-            nurture leads,promote products, and build customer loyalty.
+          <p className="text-center leading-[170%] text-[18px] md:text-[21px] lg:text-[20px] w-[60%] pt-[16px]">
+          Pay-per-click (PPC) is a digital advertising model where an advertiser pays a fee each time their ad is clicked.
           </p>
         </div>
 
-        <div className="md:flex justify-center sm:flex justify-center lg:flex justify-center pt-[2rem] lg:pb-[0] md:pb-[0] gap-6 text-center ">
+        <div className="md:flex justify-center sm:flex justify-center lg:flex justify-center pt-[2rem] lg:pb-[0] md:pb-[0] gap-4 text-center ">
           <button
             className="bg-black text-white md:text-[21px] lg:text-[20px] lg:px-6 md:px-6 px-12 py-3 rounded-[12px] hover:bg-[#515BDA] transition"
             onClick={openPopup}
@@ -42,4 +40,4 @@ const EmailHeroPage = () => {
   );
 };
 
-export default EmailHeroPage;
+export default HeroPage;

@@ -16,7 +16,7 @@ const SmaHero = () => {
         </h1>
         <div className="justify-center flex">
           {" "}
-          <p className="text-center leading-[170%] md:text-[21px] lg:text-[20px] text-[20px] w-[60%] pt-[18px]">
+          <p className="text-center leading-[170%] md:text-[21px] lg:text-[20px] text-[20px] w-[60%] pt-[13px]">
           Social media advertising is a type of digital marketing that uses paid ads to reach a target audience on social media.
           </p>
         </div>

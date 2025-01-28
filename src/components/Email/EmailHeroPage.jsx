@@ -3,7 +3,7 @@
 import PopupForm from "@components/landing-page/PopupForm";
 import React, { useState } from "react";
 
-const ContentHero = () => {
+const EmailHeroPage = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const openPopup = () => setIsPopupOpen(true);
   const closePopup = () => setIsPopupOpen(false);
@@ -12,12 +12,13 @@ const ContentHero = () => {
     <div>
       <div className="pt-[200px] pb-[180px] md:p-24 md:pt-[140px] lg:pt-[200px] lg:pb-[180px]">
         <h1 className="text-black font-semibold font-firansans lg:text-[72px] md:text-[55px] text-center md:text-[40px] text-[36px]">
-          Content Marketing
+          Email Marketing
         </h1>
         <div className="justify-center flex">
           {" "}
-          <p className="text-center leading-[170%] md:text-[21px] lg:text-[20px] text-[18px] w-[60%] pt-[18px]">
-            Content marketing is a marketing strategy focused on creating,publishing, and distributing valuable and relatable content to reach your target audience.
+          <p className="text-center leading-[170%] md:text-[21px] lg:text-[20px] w-[60%] pt-[14px]">
+            Email marketing is the process of using email to connect with potential customers,
+            nurture leads,promote products, and build customer loyalty.
           </p>
         </div>
 
@@ -41,4 +42,4 @@ const ContentHero = () => {
   );
 };
 
-export default ContentHero;
+export default EmailHeroPage;

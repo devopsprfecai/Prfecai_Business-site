@@ -3,7 +3,7 @@
 import PopupForm from "@components/landing-page/PopupForm";
 import React, { useState } from "react";
 
-const SeoHeroSection = () => {
+const AnalyticsHero = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const openPopup = () => setIsPopupOpen(true);
   const closePopup = () => setIsPopupOpen(false);
@@ -12,18 +12,14 @@ const SeoHeroSection = () => {
     <div>
       <div className="pt-[200px] pb-[180px] md:p-24 md:pt-[140px] lg:pt-[200px] lg:pb-[180px]">
         <h1 className="text-black font-semibold font-firansans lg:text-[72px] md:text-[55px] text-center md:text-[40px] text-[36px]">
-          Search Engine Optimisation
-        </h1>
+        Analytics and Reporting        </h1>
         <div className="justify-center flex">
           {" "}
-          <p className="text-center leading-[170%] text-[18px] md:text-[21px] lg:text-[20px] w-[60%] pt-[16px]">
-            We provide friendly SEO services to boost your online visibility and
-            reach your audience. Our goal is to make your brand stand out and
-            grow.
-          </p>
+          <p className="text-center leading-[170%] md:text-[21px] lg:text-[20px] text-[18px] w-[60%] pt-[10px]">
+          Analytics and reporting involve collecting, measuring, and interpreting data to evaluate the performance of digital campaigns and inform strategic decisions.          </p>
         </div>
 
-        <div className="md:flex justify-center sm:flex justify-center lg:flex justify-center pt-[2rem] lg:pb-[0] md:pb-[0] gap-4 text-center ">
+        <div className="md:flex justify-center sm:flex justify-center lg:flex justify-center pt-[2rem] lg:pb-[0] md:pb-[0] gap-6 text-center ">
           <button
             className="bg-black text-white md:text-[21px] lg:text-[20px] lg:px-6 md:px-6 px-12 py-3 rounded-[12px] hover:bg-[#515BDA] transition"
             onClick={openPopup}
@@ -43,4 +39,4 @@ const SeoHeroSection = () => {
   );
 };
 
-export default SeoHeroSection;
+export default AnalyticsHero;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function EmailLastSession() {
+function EmailLastSection() {
   return (
     <div className=" font-firansans pt-24 pb-20 flex justify-center bg-[#515BDA] item-center ">
       <div className="w-[90%] md:w-[85%] bg-white text-white p-8 rounded-[32px] border w-[85%] lg:p-24 md:p-24">
@@ -21,4 +21,4 @@ function EmailLastSession() {
   );
 }
 
-export default EmailLastSession;
+export default EmailLastSection;

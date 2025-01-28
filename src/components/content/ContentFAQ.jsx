@@ -62,7 +62,7 @@ const ContentFAQ = () => {
                 </p>
               </div>
               {isOpen1 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[100%]">
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[100%] lg:[100%] w-[100%]">
                   Content marketing is a strategic approach focused on creating
                   and distributing valuable, relevant, and consistent content to
                   attract and retain a defined audience.
@@ -88,7 +88,7 @@ const ContentFAQ = () => {
                 </p>
               </div>
               {isOpen2 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[95%] lg:[95%] w-[70%]">
                   Content marketing is a long-term strategy. While some results,
                   such as increased website traffic, can be seen within a few
                   months, significant outcomes like improved rankings and higher
@@ -115,7 +115,7 @@ const ContentFAQ = () => {
                 </p>
               </div>
               {isOpen3 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[95%] lg:[95%] w-[70%]">
                   The most effective types of content vary based on your
                   audience and goals but often include blog posts, infographics,
                   videos, eBooks, case studies, email newsletters, and social
@@ -143,7 +143,7 @@ const ContentFAQ = () => {
                 </p>
               </div>
               {isOpen4 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[95%] lg:w-[95%] w-[70%]">
                   A content marketing strategy is essential for success. It
                   ensures that your content aligns with your business goals,
                   targets the right audience, and addresses their pain points.
@@ -169,7 +169,7 @@ const ContentFAQ = () => {
                 </p>
               </div>
               {isOpen5 && (
-                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[80%] lg:[80%] w-[70%]">
+                <p className="sm:text-[20px] lg:text-[20px] md:text-[20px] text-[16px] sm:w-[60%] md:w-[100%] lg:[100%] w-[70%]">
                   Success can be measured through various metrics, such as
                   website traffic, engagement (likes, shares, comments), lead
                   generation, conversion rates, and ROI.

@@ -10,19 +10,17 @@ import surveyemail from "@public/assets/Images/seo/surveyemail.svg";
 function ContentStrategy() {
   return (
     <div className="flex justify-center item-center py-[90px] xl:py-[110px]">
-      <div className="flex flex-col font-start gap-[2.5rem] xl:w-[85%] lg:w-[85%] md:w-[85%] w-[90%]">
+      <div className="flex flex-col gap-[2.5rem] xl:w-[85%] lg:w-[85%] md:w-[85%] w-[90%]">
         <div className="flex flex-col gap-[1.2rem]">
-          <h1 className="text-black  md:text-center font-semibold font-firansans lg:text-[50px] lg:text-start sm:w-[80%] lg:w-[70%] md:w-[90%] md:text-[40px] text-[32px]">
-            Generate Organic Traffic through Seamless SEO Strategy
-          </h1>
-          <p className="text-start text-[18px] leading-[170%] md:text-[18px] sm:w-[78%] md:w-[85%] lg:text-[20px] lg:w-[60%]">
-            The Seamless SEO strategy help you drive organic traffic and grow
-            your online presence effortlessly.
+          <h1 className="text-black  md:text-center font-semibold font-firansans lg:text-[50px] lg:text-center text-center sm:w-[80%] lg:w-[100%] md:w-[100%] md:text-[40px] text-[32px]">
+          Grow organic traffic with a smooth email marketing          </h1>
+          <p className="text-center text-[18px] leading-[170%] md:text-[18px] sm:w-[78%] md:w-[100%] lg:text-[20px] lg:w-[100%]">
+          The Smooth Email method allows you to easily increase organic traffic and improve your online presence.
           </p>
         </div>
 
-        <div className="lg:flex lg:flex-row lg:flex-wrap gap-[1.5rem] md:flex md:flex-row md:flex-wrap md:gap-[2rem] lg:gap-[1.5rem] xl:gap-[2.5rem] sm:flex sm:flex-col flex flex-col ">
-          <div className="rounded-[32px] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
+        <div className="lg:flex lg:flex-row flex justify-center lg:flex-wrap gap-[1.5rem] md:flex md:flex-row md:flex-wrap md:gap-[2rem] lg:gap-[1.5rem] xl:gap-[2.5rem] sm:flex sm:flex-col flex flex-col ">
+          <div className="rounded-[32px] hover:bg-[#FFEBF6] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
             <Image className="w-[40px]" alt="" src={creation} />
             <h1 className="lg:text-[28px] md:text-[28px] sm:text-[24px] text-[24px] pt-[16px] text-black font-semibold">
               Campaign creation
@@ -36,7 +34,7 @@ function ContentStrategy() {
               </p>
             </div>
           </div>
-          <div className="rounded-[32px] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
+          <div className="rounded-[32px] hover:bg-[#ECEEFF] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
             <Image className="w-[40px]" alt="" src={newsletter} />
             <h1 className="lg:text-[28px] md:text-[28px] sm:text-[24px] text-[24px] pt-[16px] text-black font-semibold">
               Newsletters
@@ -50,7 +48,7 @@ function ContentStrategy() {
               </p>
             </div>
           </div>
-          <div className="rounded-[32px] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
+          <div className="rounded-[32px] hover:bg-[#E7FFF4] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
             <Image className="w-[40px]" alt="" src={promotionalemails} />
             <h1 className="lg:text-[28px] md:text-[28px] sm:text-[24px] text-[24px] pt-[16px] text-black font-semibold">
               Promotional Emails
@@ -63,7 +61,7 @@ function ContentStrategy() {
               </p>
             </div>
           </div>
-          <div className="rounded-[32px] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
+          <div className="rounded-[32px] hover:bg-[#F6FFE7] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
             <Image className="w-[40px]" alt="" src={brandstory} />
             <h1 className="lg:text-[28px] md:text-[28px] sm:text-[24px] text-[24px] pt-[16px] text-black font-semibold">
               Brand story emails
@@ -76,7 +74,7 @@ function ContentStrategy() {
               </p>
             </div>
           </div>
-          <div className="rounded-[32px] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
+          <div className="rounded-[32px] hover:bg-[#F0E9FF] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
             <Image className="w-[40px]" alt="" src={updateemail} />
             <h1 className="lg:text-[28px] md:text-[28px] sm:text-[24px] text-[24px] pt-[16px] text-black font-semibold">
               Product update email
@@ -90,7 +88,7 @@ function ContentStrategy() {
               </p>
             </div>
           </div>
-          <div className="rounded-[32px] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
+          <div className="rounded-[32px] hover:bg-[#FFF3ED] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">
             <Image className="w-[40px]" alt="" src={surveyemail} />
             <h1 className="lg:text-[28px] md:text-[28px] sm:text-[24px] text-[24px] pt-[16px] text-black font-semibold">
               Survey emails

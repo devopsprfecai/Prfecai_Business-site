@@ -10,7 +10,7 @@ const LandingStat = () => {
             <div className='landing-stat-left'>
                 <div className='landing-stat-left-top'>
                     <h2>88%</h2>
-                    <p>of marketers believe their organisation must increase its use of automation and AI to meet customer expectations and stay competitive.</p>
+                    <p>Of marketers believe their organisation must increase its use of automation and AI to meet customer expectations and stay competitive.</p>
                 </div>
                 <div className='landing-stat-left-bottom'>
                     <div className='contents'>

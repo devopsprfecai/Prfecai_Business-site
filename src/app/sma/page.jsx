@@ -1,9 +1,9 @@
-import EmailLastSession from '@components/seo/EmailLastSection'
-import SmaFAQ from '@components/seo/SmaFAQ'
-import SmaHero from '@components/seo/SmaHero'
-import SmaResult from '@components/seo/SmaResult'
-import SmaSecond from '@components/seo/SmaSecond'
-import Smatraffic from '@components/seo/Smatraffic'
+import EmailLastSession from '@components/Email/EmailLastSection'
+import SmaFAQ from '@components/SMA/SmaFAQ'
+import SmaHero from '@components/SMA/SmaHero'
+import SmaResult from '@components/SMA/SmaResult'
+import SmaSecond from '@components/SMA/SmaSecond'
+import Smatraffic from '@components/SMA/Smatraffic'
 
 import React from 'react'
 
