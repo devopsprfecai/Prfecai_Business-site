@@ -12,16 +12,17 @@ function AnalyticsStrategy() {
   return (
     <div className="flex justify-center item-center py-[90px] xl:py-[110px]">
       <div className="flex flex-col gap-[2.5rem] xl:w-[70%] lg:w-[85%] md:w-[85%] w-[90%]">
-        <div className="flex flex-col gap-[1.2rem]">
+        <div className="flex flex-col gap-[1`rem]">
           <h1 className="text-black  md:text-center font-semibold font-firansans lg:text-[50px] lg:text-center text-center sm:w-[80%] lg:w-[100%] md:w-[100%] md:text-[40px] text-[32px]">
             Attract Organic Traffic with Integrated Analytics and Reporting
           </h1>
-          <p className="text-center text-[18px] leading-[170%] md:text-[18px] sm:w-[78%] md:w-[100%] lg:text-[20px] lg:w-[100%]">
+          <p className="text-center text-[18px] leading-[170%] md:text-[18px] sm:w-[78%] md:w-[78%] lg:text-[20px] lg:text-center lg:w-[82%]">
             The seamless analytics and reporting strategy helps you monitor key
             metrics, gain actionable insights, and optimize your online presence
             for sustained growth.
           </p>
         </div>
+       
 
         <div className="lg:flex lg:flex-row flex justify-center lg:flex-wrap gap-[1.5rem] md:flex md:flex-row md:flex-wrap md:gap-[2rem] lg:gap-[1.5rem] xl:gap-[2.5rem] sm:flex sm:flex-col flex flex-col ">
           <div className="rounded-[32px] border-[#9B9898] flex flex-col gap-[0.3rem] md:w-[320px] md:h-[320px] sm:w-[320px] w-[100%] h-[340px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] p-6 border">

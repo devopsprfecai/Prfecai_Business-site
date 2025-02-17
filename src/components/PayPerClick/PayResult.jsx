@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import companylogos from "@public/assets/Images/seo/companylogos.svg";
+// import companylogos from "@public/assets/Images/seo/companylogos.svg";
+import resultdriven from "@public/assets/Images/seo/resultdriven.svg"
 
 function PayResult() {
   return (
@@ -17,7 +18,7 @@ function PayResult() {
         </div>
         <div className="w-[100%] h-[100%] lg:w-[55%] flex align-center xl:justify-end">
           {/* <Image className="lg:size-[120%] lg:pt-0 md:pt-10 sm:pt-10 pt-5" alt="" src={companylogos} /> */}
-          <Image className="w-[100%] h-[auto] xl:w-[80%] md:w-[60%] " alt="" src={companylogos} />
+          <Image className="w-[100%] h-[auto] xl:w-[80%] md:w-[60%] " alt="" src={resultdriven} />
 
         </div>
       </div>

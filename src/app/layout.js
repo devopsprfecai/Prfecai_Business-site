@@ -15,8 +15,8 @@ export const metadata = {
       images: [
         {
           url: "https://firebasestorage.googleapis.com/v0/b/prfecai-data.firebasestorage.app/o/opengraph-image.png?alt=media&token=a26b8e43-5b48-448b-a25a-2468bfe77041",
-          width: 1200,
-          height: 630,
+          width: 0,
+          height: 0,
           alt: "Prfec AI - Business Solutions"
         }
       ],
